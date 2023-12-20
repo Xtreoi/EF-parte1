@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400;700;900&display=swap');
+@import url('fontawesome-free-6.4.2-web/css/all.min.css');
+@import url('font-kenyan/stylesheet.css');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;700;900&family=Mukta:wght@200;400;600;800&display=swap');
+@import url(../css/bootstrap-icons-1.11.2/font/bootstrap-icons.min.css);
+
+:root{
+    --color1: #F21D92;
+    --color2: #8844A6;
+    --color3: #049DBF;
+    --color4: #1AD927;
+    --color5: #F2CB05;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-gris-oscuro: #333333;
+    --color-gris-claro: #CCCCCC;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+h1{
+    font-size: 72px;
+    letter-spacing: -5px;
+    font-weight: 200;
+}
+
+h2{
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    text-transform: lowercase;
+    margin-bottom: 1.1em;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+figure{
+    margin-bottom: 0;
+}
+
+#nosotros{
+    background-color: var(--color5);
+    color: var(--color-negro);
+}
+
+#ventas{
+    background-color: var(--color2);
+    color: var(--color-blanco);
+}
+
+#empresa{
+    background-color: var(--color1);
+    color: var(--color-blanco);
+}
+
+#conferencia{
+    background-color: var(--color4);
+}
+
+
+#valores{
+    background-color: var(--color3);
+    color: var(--color-blanco);
+    text-align: center;
+}
+
+#valores i{
+    display: block;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+#cursos{
+    background-color: var(--color3);
+    color: var(--color-blanco);
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Mukta', sans-serif;
+}
+
+#eventos{
+    background-color: var(--color2);
+    color: var(--color-blanco);
+}
+
+#galeria{
+    background-color: var(--color5);
+    color: var(--color-negro);
+}
+
+#main-footer{
+    background-color: var(--color-gris-oscuro);
+    color: var(--color-gris-claro);
+    padding: 45px 0;
+}
+
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 30px;
+    border-radius: 50%;
+}
+
+[class^="bi-"]::before, [class*=" bi-"]::before {
+    line-height: 0;
+}
+
+@media(min-width:1600px){
+    .container{
+        max-width: 1440px;
+    }
+}
+
+@media(max-width:991px){
+    #conferencia{
+        padding: 90px 0 ;
+    }
+}
